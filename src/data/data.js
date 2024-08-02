@@ -126,7 +126,7 @@ export const experiences=[
     role: "Traniee",
     company: "Chitkara University",
     year: "Feb 2023 - May 2023",
-    desc: "Working on the frontend of the web application using ReactJS",
+    desc: "During my training at Chitkara University, I gained experience in Java programming and Salesforce development. I developed a strong understanding of Salesforce administration, including user management and workflow automation, along with the ability to customize and develop Salesforce applications using Visualforce.",
     skills: [
       "Core Java",
      "Salesforce Admin",
