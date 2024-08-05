@@ -19,7 +19,6 @@ const FooterWrapper = styled.footer`
   flex-direction: column;
   gap: 14px;
   align-items: center;
-  padding: 1rem;
   color: ${({ theme }) => theme.text_primary};
 `;
 
@@ -75,6 +74,17 @@ const SocialMediaIcon = styled.a`
   }
 `;
 
+const ContactInfo = styled.div`
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: ${({ theme }) => theme.soft2};
+`;
+
+const ContactItem = styled.p`
+  margin: 0.3rem 0;
+  color: ${({ theme }) => theme.text_primary};
+`;
 const Copyright = styled.p`
   margin-top: 1.5rem;
   font-size: 0.9rem;
@@ -98,6 +108,11 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
+        <ContactInfo>
+          <ContactItem>Email: guppriya02@gmail.com</ContactItem>
+          <ContactItem>Phone: +91 9041664995</ContactItem>
+          <ContactItem>Address: #1231, sector-10, Panchkula, Haryana</ContactItem>
+        </ContactInfo>
         <Copyright>
           &copy; 2024 Priya Gupta. All rights reserved.
         </Copyright>
