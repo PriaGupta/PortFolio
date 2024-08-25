@@ -119,7 +119,7 @@ function Footer() {
 
       </FooterWrapper>
     </FooterContainer>
-  );
+  ); 
 }
 
 export default Footer

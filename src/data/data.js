@@ -96,7 +96,9 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://static-00.iconduck.com/assets.00/postman-icon-1990x2048-vq52fl5n.png",
+          // "https://static-00.iconduck.com/assets.00/postman-icon-1990x2048-vq52fl5n.png",
+          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-aallu&psig=AOvVaw1ZvXEHIAJ6Amgr9gbFP9K9&ust=1724658429420000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLifxMDTj4gDFQAAAAAdAAAAABAJ",
+          
       },
     ],
   },
